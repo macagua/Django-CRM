@@ -29,7 +29,7 @@ We recommend ubuntu 18.04 or ubuntu 20.04. These instructions are verified for u
 ```
 sudo apt install postgresql xvfb libfontconfig wkhtmltopdf git libpq-dev python3-dev python3-pip gem ruby ruby-dev build-essential libssl-dev libffi-dev python3-venv redis-server redis-tools -y
 
-sudo gem install sass
+sudo gem install compass sass
 
 sudo apt-get install postfix
 
