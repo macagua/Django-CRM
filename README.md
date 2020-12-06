@@ -51,6 +51,8 @@ pip install -r requirements.txt
 
 #### next steps
 ```
+python manage.py collectstatic --noinput
+python manage.py compress --force
 python manage.py migrate
 python manage.py runserver
 ```
